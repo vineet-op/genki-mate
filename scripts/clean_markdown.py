@@ -8,7 +8,6 @@ from html.parser import HTMLParser
 from pathlib import Path
 import re
 
-
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = PROJECT_ROOT / "output"
 INPUT_PATH = OUTPUT_DIR / "output.md"
@@ -18,6 +17,12 @@ REVIEW_PATH = OUTPUT_DIR / "lesson13_review.md"
 EMAIL_PATTERN = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 MOJIBAKE_PATTERN = re.compile(r"(?:Ã|Â|ã.|â.)")
 INCOMPLETE_ARROW_PATTERN = re.compile(r"(?:→|->)\s*$|^\s*(?:→|->)")
+
+# Lines that are pure noise in retrieved chunks:
+# 1. Orphan furigana — entire line is a <sup>…</sup> tag (kana with no kanji context)
+FURIGANA_LINE_PATTERN = re.compile(r"^\s*<sup>[^<]*</sup>\s*$")
+# 2. GENKI page footers: "第13課 ◀ 27"  or  "26 ▶ 会話・文法編"
+PAGE_FOOTER_PATTERN = re.compile(r"^\s*(?:第\d+課\s*[◀▶]\s*\d+|\d+\s*[◀▶]\s*\S+)\s*$")
 
 
 class TableParser(HTMLParser):
@@ -131,11 +136,24 @@ def clean_markdown(markdown: str, review: list[str]) -> str:
     cleaned = table_pattern.sub(replace_table, markdown)
     cleaned_lines: list[str] = []
     previous_blank = False
+    removed_furigana = 0
+    removed_footers = 0
 
     for line in cleaned.splitlines():
+        # Skip brand watermark
         if line.strip() == "JapanWithAdi":
             continue
+        # Strip email addresses
         line = EMAIL_PATTERN.sub("", line)
+        # Fix 1: drop orphan furigana lines (pure <sup>…</sup>, no kanji context)
+        if FURIGANA_LINE_PATTERN.match(line):
+            removed_furigana += 1
+            continue
+        # Fix 2: drop GENKI page footers ("第13課 ◀ 27", "26 ▶ 会話・文法編")
+        if PAGE_FOOTER_PATTERN.match(line):
+            removed_footers += 1
+            continue
+        # Collapse consecutive blank lines into one
         if not line.strip():
             if previous_blank:
                 continue
@@ -143,6 +161,11 @@ def clean_markdown(markdown: str, review: list[str]) -> str:
         else:
             previous_blank = False
         cleaned_lines.append(line.rstrip())
+
+    if removed_furigana:
+        review.append(f"- Removed {removed_furigana} orphan furigana line(s) (<sup>…</sup> with no kanji on the same line).")
+    if removed_footers:
+        review.append(f"- Removed {removed_footers} GENKI page footer line(s) (e.g. 第13課 ◀ 27).")
 
     return "\n".join(cleaned_lines).strip() + "\n"
 

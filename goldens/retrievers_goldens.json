@@ -1,0 +1,135 @@
+[
+  {
+    "id": "g01",
+    "grammar_point": "potential",
+    "query": "What does a potential verb express in Japanese?",
+    "relevant_chunk_ids": ["l13-grammar-potential-01"],
+    "expected_output": "The potential verb is used to say that someone 'can' or 'has the ability to' do something, or that something is 'possible.'"
+  },
+  {
+    "id": "g02",
+    "grammar_point": "potential",
+    "query": "How do I form the potential form of a ru-verb like 見る?",
+    "relevant_chunk_ids": ["l13-grammar-potential-02"],
+    "expected_output": "For ru-verbs, drop the final -ru and add -rareru. So 見る (mi-ru) becomes 見られる (mi-rare-ru)."
+  },
+  {
+    "id": "g03",
+    "grammar_point": "potential",
+    "query": "How do I form the potential form of a u-verb like 行く?",
+    "relevant_chunk_ids": ["l13-grammar-potential-02"],
+    "expected_output": "For u-verbs, drop the final -u and add -eru. For example: 行く becomes 行ける, 話す becomes 話せる, 読む becomes 読める."
+  },
+  {
+    "id": "g04",
+    "grammar_point": "potential",
+    "query": "What are the potential forms of the irregular verbs くる and する?",
+    "relevant_chunk_ids": ["l13-grammar-potential-02"],
+    "expected_output": "The irregular verb くる becomes こられる in the potential form, and する becomes できる."
+  },
+  {
+    "id": "g05",
+    "grammar_point": "potential",
+    "query": "What are ra-less potential forms and are they acceptable?",
+    "relevant_chunk_ids": ["l13-grammar-potential-04"],
+    "expected_output": "Ru-verbs and くる have shorter ra-less potential forms that use -reru instead of -rareru. For example 見られる becomes 見れる, and こられる becomes これる. These were once considered substandard but are now used without hesitation by most speakers."
+  },
+  {
+    "id": "g06",
+    "grammar_point": "potential",
+    "query": "What happens to the particle を when a verb is turned into its potential form?",
+    "relevant_chunk_ids": ["l13-grammar-potential-05"],
+    "expected_output": "Verbs that take を can take either を or が in the potential form. For example 漢字を読む becomes 漢字が読める or 漢字を読める. The verb できる (potential of する) takes が almost all the time. All other particles stay the same."
+  },
+  {
+    "id": "g07",
+    "grammar_point": "potential",
+    "query": "How do I say 'can do' using ことができる?",
+    "relevant_chunk_ids": ["l13-grammar-potential-05"],
+    "expected_output": "You can express 'can do' using verb dictionary form + ことができる. For example: ギターを弾くことができます (Mary can play the guitar). This is equivalent to the potential verb form ギターが弾けます."
+  },
+  {
+    "id": "g08",
+    "grammar_point": "shi",
+    "query": "When do I use し instead of から to give reasons?",
+    "relevant_chunk_ids": ["l13-grammar-shi-01"],
+    "expected_output": "Use し when you want to mention two or more reasons. し follows a predicate in the short form: (reason1) し、(reason2) し、(situation). When only one し clause is used, it implies that is not the only reason."
+  },
+  {
+    "id": "g09",
+    "grammar_point": "shi",
+    "query": "How do I attach し to い-adjectives, な-adjectives, and nouns?",
+    "relevant_chunk_ids": ["l13-grammar-shi-03"],
+    "expected_output": "With い-adjectives, attach し directly: おもしろいし (NOT おもしろいだし). With な-adjectives, add だし: 好きだし (NOT 好きし). With nouns + です, add だし: 学生だし."
+  },
+  {
+    "id": "g10",
+    "grammar_point": "sou_desu",
+    "query": "How do I form 〜そうです sentences with い-adjectives and な-adjectives?",
+    "relevant_chunk_ids": ["l13-grammar-sou-desu-01"],
+    "expected_output": "For い-adjectives, drop the final い and add そうです: おいしい becomes おいしそうです. The exception is いい which becomes よさそうです. For な-adjectives, drop な and add そうです: 元気（な）becomes 元気そうです."
+  },
+  {
+    "id": "g11",
+    "grammar_point": "sou_desu",
+    "query": "How do I say something does NOT look a certain way using そうです?",
+    "relevant_chunk_ids": ["l13-grammar-sou-desu-02"],
+    "expected_output": "To use そうです with negative adjectives, change the negative ending ない to なさ before そう. For example: この本は難しくなさそうです (This book does not look difficult)."
+  },
+  {
+    "id": "g12",
+    "grammar_point": "sou_desu",
+    "query": "Can I use 〜そうです to describe a noun directly?",
+    "relevant_chunk_ids": ["l13-grammar-sou-desu-02"],
+    "expected_output": "Yes. そう is a な-adjective so you say そうな before a noun. For example: 暖かそうなセーターを着ています (She is wearing a warm-looking sweater)."
+  },
+  {
+    "id": "g13",
+    "grammar_point": "te_miru",
+    "query": "What does 〜てみる mean and how is it used?",
+    "relevant_chunk_ids": ["l13-grammar-te-miru-01"],
+    "expected_output": "〜てみる uses the te-form of a verb plus the helping verb みる to express trying something tentatively. You are not sure what the outcome will be but you dare to do it. For example: 読んでみます means 'I will take a look at it (and see).' みる conjugates as a regular ru-verb and is always written in hiragana."
+  },
+  {
+    "id": "g14",
+    "grammar_point": "nara",
+    "query": "What is the difference between なら and から when giving a reason?",
+    "relevant_chunk_ids": ["l13-grammar-nara-01"],
+    "expected_output": "なら is not simply a reason marker like から. You use 'X なら Y' when you think the predicate Y applies only to X and not more generally. The main ideas of a なら sentence are contrast and limitation. For example: ひらがななら読めます means 'If it is in hiragana, yes (I can read it),' contrasting hiragana with Japanese writing in general."
+  },
+  {
+    "id": "g15",
+    "grammar_point": "nara",
+    "query": "Can I put a particle before なら?",
+    "relevant_chunk_ids": ["l13-grammar-nara-01", "l13-other-situation-1-01"],
+    "expected_output": "Particles such as に, で, and から may optionally appear before なら, for example チリになら. However は, が, and を never go together with なら."
+  },
+  {
+    "id": "g16",
+    "grammar_point": "frequency",
+    "query": "How do I express how many times a week I do something in Japanese?",
+    "relevant_chunk_ids": ["l13-grammar-frequency-01"],
+    "expected_output": "Use the pattern: (period) に (frequency). For example: 一週間に三回髪を洗います means 'I shampoo three times a week.' Other examples: 一日に三時間ゲームをします (I play games for about three hours a day), 一か月に三日か四日アルバイトをします (I work part-time three or four days a month)."
+  },
+  {
+    "id": "g17",
+    "grammar_point": "potential",
+    "query": "How does a potential verb conjugate in past tense and negative form?",
+    "relevant_chunk_ids": ["l13-grammar-potential-04"],
+    "expected_output": "Potential verbs conjugate as regular ru-verbs. Using 書ける as an example: present affirmative 書ける / 書けます, present negative 書けない / 書けません, past affirmative 書けた / 書けました, past negative 書けなかった / 書けませんでした, te-form 書けて."
+  },
+  {
+    "id": "g18",
+    "grammar_point": "shi",
+    "query": "Can I add し clauses in a separate sentence after the main statement?",
+    "relevant_chunk_ids": ["l13-grammar-shi-02"],
+    "expected_output": "Yes. You can add し clauses in a separate sentence to provide reasons for the situation just mentioned. For example: 山下先生はいい先生です。教えるのが上手だし、親切だし。(Professor Yamashita is a great teacher. He is good at teaching, and he is kind.)"
+  },
+  {
+    "id": "g19",
+    "grammar_point": "sou_desu",
+    "query": "When should I NOT use そうです — is there any adjective it does not work with?",
+    "relevant_chunk_ids": ["l13-grammar-sou-desu-03"],
+    "expected_output": "You should not use そうです with adjectives where visual evidence is already conclusive. For example, きれいな cannot be used with そう — you would not say きれいそうです for something you can already see is pretty, because you already have enough evidence to conclude it is pretty. そうです is used when conclusive evidence is lacking."
+  }
+]

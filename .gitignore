@@ -29,3 +29,6 @@ Thumbs.db
 # Local textbook source and generated extraction output
 data/
 output/
+
+# Vector store (rebuilt from cleaned markdown + embeddings)
+chroma_store/
