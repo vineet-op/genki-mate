@@ -20,7 +20,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(PROJECT_ROOT / ".env")
 
-GENERATE_MODEL = "gemini-3.5-flash"
+GENERATE_MODEL = "gemini-3.5-flash-lite"
 ABSTAIN = "I don't have enough information in the lesson material to answer that."
 
 _PROMPT = ChatPromptTemplate.from_template(

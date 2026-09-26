@@ -180,6 +180,11 @@ def load_store() -> Chroma:
 def build_retriever(k: int = DEFAULT_K):
     return load_store().as_retriever(search_kwargs={"k": k})
 
+
+def retrieve(query: str, k: int = DEFAULT_K):
+    """Return the top-k lesson chunks for a student question."""
+    return build_retriever(k).invoke(query)
+
 # ── CLI helpers ──────────────────────────────────────────────────────────────
 
 def _preview(text: str, n: int = 160) -> str:
