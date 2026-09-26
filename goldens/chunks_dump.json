@@ -1,0 +1,380 @@
+[
+  {
+    "id": "l13-grammar-expression-notes-01",
+    "text": "Adverbs and Other Expressions\n\n〜かい\t〜回\t. . . times\n\n〜キロ\tEMPTY\t. . . kilometers; . . . kilograms\n\nぜんぶ\t全部\tall\n\n\\* 〜ともうします\t〜と申します\tmy name is . . .\n\nとくに\t特に\tespecially",
+    "meta": {
+      "title": "Expression Notes",
+      "grammar_point": "expression_notes",
+      "grammar_number": "",
+      "lesson": 13,
+      "pos": "",
+      "section_type": "grammar",
+      "source": "cleaned_lesson13.md",
+      "chunk_id": "l13-grammar-expression-notes-01"
+    }
+  },
+  {
+    "id": "l13-grammar-expression-notes-02",
+    "text": "表現ノート\n\n**Expression Notes**\n\nicon: 1\n\nギターを弾く ▶ Different verbs are used to express the playing of different musi-\ncal instruments.\n\nFor stringed and keyboard instruments:\n\nギターを弾く\nto play the guitar\n\nピアノを弾く\nto play the piano\n\nFor wind instruments:\n\nサックスを吹く\nto play the saxophone\n\nFor percussion instruments:\n\nドラムをたたく\nto play the drum\n\nWhen referring to musical instruments in general, やる and できる (for poten-\ntial) are usually used.\n\n何か楽器ができますか。\n<sup>なに</sup> <sup>がっき</sup>\nCan you play any instruments?\n\n何か楽器をやりますか。\n<sup>なに</sup> <sup>がっき</sup>\nDo you play any instruments?\n\n楽しく／上手に ▶ Both い-adjectives and な-adjectives can modify verbs as ad-\n<sup>たの</sup> <sup>じょうず</sup>\nverbs. With い-adjectives, the final い is dropped and く is added. With な-adjec-\ntives, に is added.\n\n日本語のクラスは楽しいです。\n<sup>にほんご</sup> <sup>たの</sup>\nThe Japanese class is fun.\n\n毎日日本語を楽しく勉強しています。\n<sup>まいにち</sup> <sup>にほんご</sup> <sup>たの</sup> <sup>べんきょう</sup>\nI enjoy studying Japanese every day.",
+    "meta": {
+      "pos": "",
+      "grammar_point": "expression_notes",
+      "lesson": 13,
+      "chunk_id": "l13-grammar-expression-notes-02",
+      "grammar_number": "",
+      "section_type": "grammar",
+      "source": "cleaned_lesson13.md",
+      "title": "Expression Notes"
+    }
+  },
+  {
+    "id": "l13-grammar-expression-notes-03",
+    "text": "毎日日本語を楽しく勉強しています。\n<sup>まいにち</sup> <sup>にほんご</sup> <sup>たの</sup> <sup>べんきょう</sup>\nI enjoy studying Japanese every day.\n\nロバートさんは料理が上手です。\n<sup>りょうり</sup> <sup>じょうず</sup>\nRobert is good at cooking.\n\nロバートさんは上手に料理ができます。\n<sup>じょうず</sup> <sup>りょうり</sup>\nRobert cooks well.",
+    "meta": {
+      "source": "cleaned_lesson13.md",
+      "pos": "",
+      "grammar_number": "",
+      "chunk_id": "l13-grammar-expression-notes-03",
+      "grammar_point": "expression_notes",
+      "lesson": 13,
+      "title": "Expression Notes",
+      "section_type": "grammar"
+    }
+  },
+  {
+    "id": "l13-grammar-frequency-01",
+    "text": "6 一週間に三回\n\nYou can describe the frequency of events over a period of time by using the following framework.\n\n(period) に (frequency) (frequency) *per* (period)\n\nQ：一週間に何回髪を洗いますか。 *How many times a week do you shampoo?*\n\nA：私は一週間に三回髪を洗います。 *I shampoo three times a week.*\n\n<sup>6</sup> You can optionally keep the particle に before なら in this example and say チリになら. Particles such as に, で, and から may, but do not have to, intervene between the noun and なら, while は, が, and を never go with なら.\n\n---\n\n一日に三時間ぐらいゲームをします。\n<sup>いちにち</sup> <sup>さんじかん</sup>\n\n*I play games for about three hours a day.*\n\n一か月に三日か四日、アルバイトをします。\n<sup>いっ</sup> <sup>げつ</sup> <sup>みっか</sup> <sup>よっか</sup>\n\n*I work part-time three or four days a month.*",
+    "meta": {
+      "pos": "",
+      "source": "cleaned_lesson13.md",
+      "section_type": "grammar",
+      "title": "一週間に三回",
+      "grammar_point": "frequency",
+      "lesson": 13,
+      "grammar_number": "6",
+      "chunk_id": "l13-grammar-frequency-01"
+    }
+  },
+  {
+    "id": "l13-grammar-nara-01",
+    "text": "5 なら\n\nYou can say \"X (noun) なら Y (predicate)\" when you think that the predicate Y applies *only* to X and is not more generally valid. The main ideas of a なら sentence, in other words, are contrast (as in Situation 1) and limitation (as in Situation 2).",
+    "meta": {
+      "chunk_id": "l13-grammar-nara-01",
+      "section_type": "grammar",
+      "pos": "",
+      "lesson": 13,
+      "title": "なら",
+      "grammar_point": "nara",
+      "source": "cleaned_lesson13.md",
+      "grammar_number": "5"
+    }
+  },
+  {
+    "id": "l13-grammar-potential-01",
+    "text": "1 Potential Verbs\n\n# 文法<sup>ぶん　　ぽう</sup> Grammar\n\nWe use the potential verb to say that someone \"can\" or \"has the ability to\" do something, or that something is \"possible.\"\n\n私は日本語が話せます。\n\n*I can speak Japanese.*\n\n私は泳げないんです。\n\n*(The truth is) I cannot swim.*\n\n雨が降ったので、海に行けませんでした。\n\n*We could not go to the beach, because it rained.*\n\nWe make potential verbs using the rules listed below:",
+    "meta": {
+      "section_type": "grammar",
+      "source": "cleaned_lesson13.md",
+      "grammar_point": "potential",
+      "pos": "",
+      "lesson": 13,
+      "chunk_id": "l13-grammar-potential-01",
+      "title": "Potential Verbs",
+      "grammar_number": "1"
+    }
+  },
+  {
+    "id": "l13-grammar-potential-02",
+    "text": "雨が降ったので、海に行けませんでした。\n\n*We could not go to the beach, because it rained.*\n\nWe make potential verbs using the rules listed below:\n\n> **Potential verbs**\n>\n> * *ru*-verbs: Drop the final *-ru* and add *-rareru*.\n>   見る (mi-ru) $\\rightarrow$ 見られる (mi-rare-ru)\n>   <sup>み　　　　　　　　　　　み</sup>\n> * *u*-verbs: Drop the final *-u* and add *-eru*.\n>   行く (ik-u) $\\rightarrow$ 行ける (ik-eru)　　　作る $\\rightarrow$ 作れる\n>   <sup>い　　　　　　　　　　い　　　　　　　　　つく　　　　つく</sup>\n>   話す $\\rightarrow$ 話せる　　　　　　　　泳ぐ $\\rightarrow$ 泳げる\n>   <sup>はな　　　　　　はな　　　　　　　　およ　　　　およ</sup>\n>   待つ $\\rightarrow$ 待てる　　　　　　　　遊ぶ $\\rightarrow$ 遊べる\n>   <sup>ま　　　　　　　ま　　　　　　　　　あそ　　　　あそ</sup>\n>   死ぬ $\\rightarrow$ 死ねる　　　　　　　　買う $\\rightarrow$ 買える\n>   <sup>し　　　　　　　し　　　　　　　　　か　　　　　か</sup>\n>   読む $\\rightarrow$ 読める\n>   <sup>よ　　　　　　　よ</sup>\n> * irregular verbs:\n>   くる $\\rightarrow$ こられる　　　　　　する $\\rightarrow$ できる\n\nYou can think of the *u*-verb conjugation in terms of a *hiragana* table:",
+    "meta": {
+      "chunk_id": "l13-grammar-potential-02",
+      "section_type": "grammar",
+      "grammar_point": "potential",
+      "title": "Potential Verbs",
+      "source": "cleaned_lesson13.md",
+      "pos": "",
+      "grammar_number": "1",
+      "lesson": 13
+    }
+  },
+  {
+    "id": "l13-grammar-potential-03",
+    "text": "You can think of the *u*-verb conjugation in terms of a *hiragana* table:\n\n|  | 行\nい | 話\nはな | 待\nま | 死\nし | 読\nよ | 作\nつく | 泳\nおよ | 遊\nあそ | 買\nか |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| negative | か | さ | た | な | ま | ら | が | ば | わ | ～ない |  |\n| stem | き | し | ち | に | み | り | ぎ | び | い | ～ます |  |\n| affirmative | く | す | つ | ぬ | む | る | ぐ | ぶ | う | = Dictionary form |  |\n| potential | け | せ | て | ね | め | れ | げ | べ | え | ～る |  |\n\n---\n\nThe potential verbs for *ru*-verbs are longer than those for *u*-verbs. (Compare 見られる for 見る, and 乗れる for 乗る.) There actually are shorter, alternative potential verbs for *ru*-verbs and the irregular verb くる, which use the suffix *-reru*, instead of *-rareru*. These *ra*-less forms were once considered substandard, but are now used without hesitation by most speakers.<sup>1</sup>",
+    "meta": {
+      "grammar_point": "potential",
+      "title": "Potential Verbs",
+      "grammar_number": "1",
+      "pos": "",
+      "lesson": 13,
+      "section_type": "grammar",
+      "source": "cleaned_lesson13.md",
+      "chunk_id": "l13-grammar-potential-03"
+    }
+  },
+  {
+    "id": "l13-grammar-potential-04",
+    "text": "| With and without ra |  |  |  |\n| --- | --- | --- | --- |\n| ru-verbs: |  | potential forms | ra-less potential forms |\n| 出る | → | 出られる | 出れる |\n| 見る | → | 見られる | 見れる |\n| irregular verbs: くる | → | こられる | これる |\n\nPotential verbs themselves conjugate as regular *ru*-verbs. The table below summarizes the conjugation pattern of potential verbs.\n\n| Conjugation of potential verbs |  |  |  |  |\n| --- | --- | --- | --- | --- |\n| e.g. 書ける | short forms |  | long forms |  |\n|  | affirmative | negative | affirmative | negative |\n| [Present] | 書ける | 書けない | 書けます | 書けません |\n| [Past] | 書けた | 書けなかった | 書けました | 書けませんでした |\n| [Te-form] | 書けて |  |  |  |\n\nThose verbs that take the particle を can take either を or が when they are turned into the potential, as in the first sentence above. できる, the potential counterpart of the verb する, is somewhat special, and takes が almost all the time. All particles other than を remain the same when the verb is turned into the potential.\n\n**Particles in potential sentences**",
+    "meta": {
+      "chunk_id": "l13-grammar-potential-04",
+      "grammar_number": "1",
+      "grammar_point": "potential",
+      "source": "cleaned_lesson13.md",
+      "title": "Potential Verbs",
+      "pos": "",
+      "section_type": "grammar",
+      "lesson": 13
+    }
+  },
+  {
+    "id": "l13-grammar-potential-05",
+    "text": "**Particles in potential sentences**\n\n* verbs with を:\n\n漢字を飲む → 漢字が読める or 漢字を読める\n\n* する → できる:\n\n仕事をする → 仕事ができる (仕事をする is much less commonly used.)\n\n* verbs with particles other than を:\n\n山に登る → 山に登れる (No particle change involved.)\n\n<sup>1</sup> The *ra*-less forms are still not sanctioned by school grammar. Grammar and spelling checker apps suggest re-writes for these *ra*-less forms.\n\n---\n\n28 会話・文法編\n\nYou can also express the idea of \"can do\" using a more complex construction: verb dictionary form + ことができる。<sup>2</sup>\n\nメアリーさんはギターを弾く<u>ことができます</u>。 (Compare: ギターが弾けます)\n*Mary can play the guitar.*\n\nこのアパートでは犬を飼う<u>ことができません</u>。 (Compare: 犬が飼えません)\n*You cannot keep dogs in this apartment.*",
+    "meta": {
+      "chunk_id": "l13-grammar-potential-05",
+      "title": "Potential Verbs",
+      "grammar_number": "1",
+      "grammar_point": "potential",
+      "section_type": "grammar",
+      "pos": "",
+      "lesson": 13,
+      "source": "cleaned_lesson13.md"
+    }
+  },
+  {
+    "id": "l13-grammar-shi-01",
+    "text": "2 〜し\n\nAs we learned in Lesson 9, to give the reason for something, we can use the conjunction から。\n\n日本語はおもしろいから、日本語の授業が大好きです。\n*I really like my Japanese class, because Japanese is interesting.*\n\nWhen you want to mention not just one but two (or more) reasons, you can use し in place of から。し usually follows a predicate in the short form.<sup>3</sup>\n\n(reason<sub>1</sub>) し、(reason<sub>2</sub>) し、(situation)。\n\n日本語はおもしろいし、先生はいいし、私は日本語の授業が大好きです。\n*I really like my Japanese class, because Japanese is interesting, and our teacher is good.*\n\nA：国に帰りたいですか。\n*Do you want to go back home?*\n\nB：いいえ、日本の生活は楽しいし、いい友だちがいるし、帰りたくないです。\n*No. Life here in Japan is good, and I have good friends here, so I don't want to go back.*\n\nWhen you use just one し clause, you imply that it is not the only reason for the situation.\n\n物価が安いし、この町の生活は楽です。\n*Life in this city is easygoing. Things are inexpensive, for one thing.*",
+    "meta": {
+      "grammar_number": "2",
+      "source": "cleaned_lesson13.md",
+      "section_type": "grammar",
+      "grammar_point": "shi",
+      "chunk_id": "l13-grammar-shi-01",
+      "pos": "",
+      "lesson": 13,
+      "title": "〜し"
+    }
+  },
+  {
+    "id": "l13-grammar-shi-02",
+    "text": "物価が安いし、この町の生活は楽です。\n*Life in this city is easygoing. Things are inexpensive, for one thing.*\n\n<sup>2</sup> When you have an を-taking verb in the ことができる construction, you keep the original particle を, unlike with the potential verbs.\n\n<sup>3</sup> In the very polite speech style, し can also follow the long forms.\n\n私は来年も日本語を勉強します。日本が好きですし、日本語はおもしろいですし。\n\n*I will study Japanese next year, too. I like Japan, and what is more, the Japanese language is interesting.*\n\n---\n\nYou can also add the し clauses in a separate sentence, providing reasons for the situation just mentioned.\n\n<ruby>山下<rt>やました</rt></ruby><ruby>先生<rt>せんせい</rt></ruby>はいい<ruby>先生<rt>せんせい</rt></ruby>です。 <ruby>教<rt>おし</rt></ruby>えるのが<ruby>上手<rt>じょうず</rt></ruby>だし、<ruby>親切<rt>しんせつ</rt></ruby>だし。\n*Professor Yamashita is a great teacher. He is good at teaching, and he is kind.*\n\nNote that you find だ in the present tense with な-adjectives and nouns, but not with い-adjectives.",
+    "meta": {
+      "chunk_id": "l13-grammar-shi-02",
+      "lesson": 13,
+      "grammar_point": "shi",
+      "section_type": "grammar",
+      "source": "cleaned_lesson13.md",
+      "pos": "",
+      "grammar_number": "2",
+      "title": "〜し"
+    }
+  },
+  {
+    "id": "l13-grammar-shi-03",
+    "text": "Note that you find だ in the present tense with な-adjectives and nouns, but not with い-adjectives.\n\n| い-adjectives: | おもしろいし | (× おもしろいだ し) |\n| --- | --- | --- |\n| な-adjectives: | <ruby>好<rt>す</rt></ruby>きだし | (× <ruby>好<rt>す</rt></ruby>きし) |\n| noun + です: | <ruby>学生<rt>がくせい</rt></ruby>だし | (× <ruby>学生<rt>がくせい</rt></ruby>し) |",
+    "meta": {
+      "source": "cleaned_lesson13.md",
+      "chunk_id": "l13-grammar-shi-03",
+      "title": "〜し",
+      "grammar_point": "shi",
+      "grammar_number": "2",
+      "pos": "",
+      "lesson": 13,
+      "section_type": "grammar"
+    }
+  },
+  {
+    "id": "l13-grammar-sou-desu-01",
+    "text": "3 〜そうです (It looks like ...)\n\nWe add そうです to い- and な-adjective bases to say that something \"seemingly\" has those properties.<sup>4</sup> When we say 〜そうです, we are guessing what something is like on the basis of our impressions.\n\n| このりんごはおいしそうです。 | This apple looks delicious. |\n| --- | --- |\n| あしたは<ruby>天気<rt>てんき</rt></ruby>がよさそうです。 | It looks like the weather will be fine tomorrow. |\n| メアリーさんは<ruby>元気<rt>げんき</rt></ruby>そうでした。 | Mary looks like she was doing well. |\n\nTo form 〜そうです sentences with い-adjectives, you drop the final い; with な-adjectives, you just drop な. The only exception is the い-adjective いい, which changes to よさ before そう.\n\n| い-adjectives: | おいしい | → | おいしそうです |\n| --- | --- | --- | --- |\n| (exception) | いい | → | よさそうです |\n| な-adjectives: | <ruby>元気<rt>げんき</rt></ruby> (な) | → | <ruby>元気<rt>げんき</rt></ruby>そうです |\n\n<sup>4</sup> You can also use そうです with a verb stem to describe your impression or guess.",
+    "meta": {
+      "pos": "",
+      "chunk_id": "l13-grammar-sou-desu-01",
+      "grammar_point": "sou_desu",
+      "source": "cleaned_lesson13.md",
+      "title": "〜そうです",
+      "section_type": "grammar",
+      "lesson": 13,
+      "grammar_number": "3"
+    }
+  },
+  {
+    "id": "l13-grammar-sou-desu-02",
+    "text": "<sup>4</sup> You can also use そうです with a verb stem to describe your impression or guess.\n\nこのセーターは<ruby>家<rt>いえ</rt></ruby>で<ruby>洗<rt>あら</rt></ruby>えそうです。 (With <ruby>洗<rt>あら</rt></ruby>える, the potential form of <ruby>洗<rt>あら</rt></ruby>う。)\n*It looks like this sweater is washable at home.*\n\nThe impression you express may be an event about to happen.\n\n<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>りそうです。 *It looks like it will rain.*\n\n---\n\n30 会話・文法編\n\nYou can use そうです with negative adjectives, too. The negative ending ない is changed to なさ before そう.<sup>5</sup>\n\nこの本は難しくなさそうです。\n<sub>ほん　　むずか</sub>\n\n*This book does not look difficult.*\n\nソラさんはテニスが上手じゃなさそうです。\n<sub>　　　　　　　　　　　じょうず</sub>\n\n*It does not look like Sora is good at tennis.*\n\nYou can use the adjective + そう combination to qualify a noun. そう is a な-adjective, thus we say そうな before a noun.\n\n暖かそうなセーターを着ています。\n<sub>あたた　　　　　　　　　き</sub>\n\n*She is wearing a warm-looking sweater.*",
+    "meta": {
+      "source": "cleaned_lesson13.md",
+      "grammar_number": "3",
+      "chunk_id": "l13-grammar-sou-desu-02",
+      "title": "〜そうです",
+      "section_type": "grammar",
+      "lesson": 13,
+      "grammar_point": "sou_desu",
+      "pos": ""
+    }
+  },
+  {
+    "id": "l13-grammar-sou-desu-03",
+    "text": "暖かそうなセーターを着ています。\n<sub>あたた　　　　　　　　　き</sub>\n\n*She is wearing a warm-looking sweater.*\n\nIn many そうです sentences, the guesswork is done on the basis of visual impressions. It is wrong, however, to assume that そう is linked only to the visual medium. Rather, we use そうです when we lack conclusive evidence. (For example, we say an apple is おいしそう before we have had the chance to taste it. Once we have tasted it, we can conclude whether it really is おいしい.) With an adjective for which visual evidence is crucial, such as きれいな, we do not use そう and say × きれいそうです for something looking pretty; if we can see it, we already have enough evidence to conclude that it is pretty.",
+    "meta": {
+      "source": "cleaned_lesson13.md",
+      "lesson": 13,
+      "chunk_id": "l13-grammar-sou-desu-03",
+      "grammar_number": "3",
+      "pos": "",
+      "section_type": "grammar",
+      "grammar_point": "sou_desu",
+      "title": "〜そうです"
+    }
+  },
+  {
+    "id": "l13-grammar-te-miru-01",
+    "text": "4 〜てみる\n\nYou can use the *te*-form of a verb plus the helping verb みる to express the idea of \"doing something tentatively,\" or \"trying something.\" You are not sure what the outcome of your action will be, but you dare to do it and see what effect it might have.\n\n漢字がわからなかったので、日本人の友だちに聞いてみました。\n<sub>かんじ　　　　　　　　　　にほんじん　とも　　　　き</sub>\n*I did not know the kanji, so I tried asking a Japanese friend of mine.*\n\nA：この本、おもしろかったですよ。\t*This book was interesting.*\n<sub>　　ほん</sub>\n\nB：じゃあ、読んでみます。\t*Okay, I will take a look at it.*\n<sub>　　　　　よ</sub>\n\nみる comes from the verb 見る, and conjugates as a regular *ru*-verb. Unlike the main verb 見る, however, 〜てみる is always written in *hiragana*.\n<sub>　　　　　　　　　　　み　　　　　　　　　　　　　　　　　　　　　　　　　　　　　み</sub>\n\n<sup>5</sup> Another option is to use the negative of そうです instead of negating the adjective, as in:\n\nこの本は難しそうじゃないです。\n<sub>ほん　　むずか</sub>\n\nソラさんはテニスが上手そうじゃないです。\n<sub>　　　　　　　　　　　じょうず</sub>\n\n---",
+    "meta": {
+      "pos": "",
+      "section_type": "grammar",
+      "chunk_id": "l13-grammar-te-miru-01",
+      "lesson": 13,
+      "title": "〜てみる",
+      "grammar_point": "te_miru",
+      "grammar_number": "4",
+      "source": "cleaned_lesson13.md"
+    }
+  },
+  {
+    "id": "l13-other-situation-1-01",
+    "text": "Situation 1\n\nA：ブラジルに行ったことがありますか。\n*Have you ever been to Brazil?*\n\nB：チリなら行ったことがありますが、ブラジルは行ったことがありません。<sup>6</sup>\n*I've been to Chile, but never to Brazil. (If the question were about Chile, yes, but Brazil, no.)*",
+    "meta": {
+      "source": "cleaned_lesson13.md",
+      "grammar_point": "",
+      "lesson": 13,
+      "section_type": "other",
+      "pos": "",
+      "title": "Situation 1",
+      "chunk_id": "l13-other-situation-1-01",
+      "grammar_number": ""
+    }
+  },
+  {
+    "id": "l13-other-situation-2-01",
+    "text": "Situation 2\n\nA：日本語が読めますか。\n*Can you read Japanese?*\n\nB：ひらがななら読めます。\n*If it is (written) in hiragana, yes.*\n\nなら introduces a sentence that says something \"positive\" about the item that is contrasted. In the first situation above, なら puts Chile in a positive light, and in contrast with Brazil, which the question was originally about. In the second situation, a smaller part, namely *hiragana*, is brought up and contrasted with a larger area, namely, the language as a whole.",
+    "meta": {
+      "grammar_number": "",
+      "title": "Situation 2",
+      "pos": "",
+      "section_type": "other",
+      "grammar_point": "",
+      "chunk_id": "l13-other-situation-2-01",
+      "source": "cleaned_lesson13.md",
+      "lesson": 13
+    }
+  },
+  {
+    "id": "l13-other-v-o-c-a-b-u-l-a-r-y-01",
+    "text": "V o c a b u l a r y\n\n## 単語\nたん ご",
+    "meta": {
+      "source": "cleaned_lesson13.md",
+      "chunk_id": "l13-other-v-o-c-a-b-u-l-a-r-y-01",
+      "grammar_number": "",
+      "section_type": "other",
+      "pos": "",
+      "title": "V o c a b u l a r y",
+      "grammar_point": "",
+      "lesson": 13
+    }
+  },
+  {
+    "id": "l13-other-v-o-c-a-b-u-l-a-r-y-02",
+    "text": "| Nouns |  |  |\n| --- | --- | --- |\n|  |  |  |\n| おとな | 大人 | adult |\n|  |  |  |\n| べんごし | 弁護士 | lawyer |\n|  |  |  |\n| \\* わたくし | 私 | I (formal) |\n|  |  |  |\n| \\* カレー |  | curry |\n|  |  |  |\n| こうちゃ | 紅茶 | black tea |\n|  |  |  |\n| きもの | 着物 | kimono; Japanese traditional dress |\n|  |  |  |\n| セーター |  | sweater |\n|  |  |  |\n| がっき | 楽器 | musical instrument |\n|  |  |  |\n| からて | 空手 | karate |\n|  |  |  |\n| ゴルフ |  | golf |\n|  |  |  |\n| バイク |  | motorcycle |\n|  |  |  |\n| ぞう | 象 | elephant |\n|  |  |  |\n| からだ | 体 | body |\n|  |  |  |\n| がいこくご | 外国語 | foreign language |\n|  |  |  |\n| ことば | 言葉 | language |\n|  |  |  |\n| ぶんぽう | 文法 | grammar |\n|  |  |  |\n| アプリ |  | application |\n|  |  |  |\n| アパート |  | apartment; smaller apartment\nbuilding |\n|  |  |  |\n| マンション |  | larger apartment building;\ncondominium |\n|  |  |  |\n| くうこう | 空港 | airport |\n|  |  |  |\n| \\* みせ | 店 | shop; store |\n|  |  |  |\n| ぶっか | 物価 | consumer prices |\n|  |  |  |\n| \\* こうこく | 広告 | advertisement |\n|  |  |  |\n| \\* ぼしゅう | 募集 | recruitment |",
+    "meta": {
+      "grammar_point": "",
+      "lesson": 13,
+      "source": "cleaned_lesson13.md",
+      "title": "V o c a b u l a r y",
+      "pos": "",
+      "grammar_number": "",
+      "chunk_id": "l13-other-v-o-c-a-b-u-l-a-r-y-02",
+      "section_type": "other"
+    }
+  },
+  {
+    "id": "l13-other-v-o-c-a-b-u-l-a-r-y-03",
+    "text": "|  |  |  |\n| ぶっか | 物価 | consumer prices |\n|  |  |  |\n| \\* こうこく | 広告 | advertisement |\n|  |  |  |\n| \\* ぼしゅう | 募集 | recruitment |\n|  |  |  |\n| やくそく | 約束 | promise; appointment |\n| い-adjectives |  |  |\n|  |  |  |\n| うれしい |  | glad |\n|  |  |  |\n| かなしい | 悲しい | sad |\n|  |  |  |\n| きびしい | 厳しい | strict |\n|  |  |  |\n| きぶんがわるい | 気分が悪い | to feel sick |",
+    "meta": {
+      "grammar_point": "",
+      "section_type": "other",
+      "title": "V o c a b u l a r y",
+      "grammar_number": "",
+      "lesson": 13,
+      "pos": "",
+      "chunk_id": "l13-other-v-o-c-a-b-u-l-a-r-y-03",
+      "source": "cleaned_lesson13.md"
+    }
+  },
+  {
+    "id": "l13-other-v-o-c-a-b-u-l-a-r-y-04",
+    "text": "\\* Words that appear in the dialogue\n\n---\n\nからい\t辛い\thot and spicy; salty\n\nすごい\tEMPTY\tincredible; awesome\n\nちかい\t近い\tclose; near",
+    "meta": {
+      "source": "cleaned_lesson13.md",
+      "grammar_number": "",
+      "title": "V o c a b u l a r y",
+      "chunk_id": "l13-other-v-o-c-a-b-u-l-a-r-y-04",
+      "pos": "",
+      "section_type": "other",
+      "grammar_point": "",
+      "lesson": 13
+    }
+  },
+  {
+    "id": "l13-vocab-counter-01",
+    "text": "Numbers (used to count days)\n\nいちにち\t一日\tone day\n\nふつか\t二日\ttwo days\n\n\\* みっか\t三日\tthree days\n\nよっか\t四日\tfour days\n\nいつか\t五日\tfive days\n\nむいか\t六日\tsix days\n\nなのか\t七日\tseven days\n\nようか\t八日\teight days\n\nここのか\t九日\tnine days\n\nとおか\t十日\tten days\n\n---",
+    "meta": {
+      "title": "Numbers (used to count days)",
+      "chunk_id": "l13-vocab-counter-01",
+      "grammar_point": "",
+      "pos": "counter",
+      "source": "cleaned_lesson13.md",
+      "grammar_number": "",
+      "section_type": "vocab",
+      "lesson": 13
+    }
+  },
+  {
+    "id": "l13-vocab-irregular-verb-01",
+    "text": "Irregular Verb\n\nかんどうする\t感動する\tto be moved/touched (by . . .)\n\n(〜に)",
+    "meta": {
+      "title": "Irregular Verb",
+      "lesson": 13,
+      "grammar_point": "",
+      "chunk_id": "l13-vocab-irregular-verb-01",
+      "section_type": "vocab",
+      "grammar_number": "",
+      "source": "cleaned_lesson13.md",
+      "pos": "irregular-verb"
+    }
+  },
+  {
+    "id": "l13-vocab-na-adjective-01",
+    "text": "な-adjectives\n\n\\* いろいろ（な）\tEMPTY\tvarious; different kinds of\n\nしあわせ（な）\t幸せ\thappy (lasting happiness)\n\n\\* だめ（な）\tEMPTY\tno good",
+    "meta": {
+      "chunk_id": "l13-vocab-na-adjective-01",
+      "section_type": "vocab",
+      "grammar_point": "",
+      "source": "cleaned_lesson13.md",
+      "title": "な-adjectives",
+      "grammar_number": "",
+      "pos": "na-adjective",
+      "lesson": 13
+    }
+  },
+  {
+    "id": "l13-vocab-u-verb-01",
+    "text": "U-verbs\n\nあむ\t編む\tto knit (〜を)\n\n\\* がんばる\t頑張る\tto do one's best; to try hard\n\nなく\t泣く\tto cry\n\nみがく\t磨く\tto brush (teeth); to polish (〜を)\n\nやくそくをまもる\t約束を守る\tto keep a promise",
+    "meta": {
+      "grammar_point": "",
+      "title": "U-verbs",
+      "pos": "u-verb",
+      "section_type": "vocab",
+      "source": "cleaned_lesson13.md",
+      "chunk_id": "l13-vocab-u-verb-01",
+      "grammar_number": "",
+      "lesson": 13
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "f01",
+    "query": "What does a potential verb express in Japanese?",
+    "ideal_context_ids": [
+      "l13-grammar-potential-01"
+    ],
+    "ideal_context": "1 Potential Verbs\n\n# 文法<sup>ぶん　　ぽう</sup> Grammar\n\nWe use the potential verb to say that someone \"can\" or \"has the ability to\" do something, or that something is \"possible.\"\n\n私は日本語が話せます。\n\n*I can speak Japanese.*\n\n私は泳げないんです。\n\n*(The truth is) I cannot swim.*\n\n雨が降ったので、海に行けませんでした。\n\n*We could not go to the beach, because it rained.*\n\nWe make potential verbs using the rules listed below:",
+    "expected_output": "The potential verb is used to say that someone \"can\" or \"has the ability to\" do something, or that something is \"possible.\""
+  },
+  {
+    "id": "f02",
+    "query": "How do I form the potential form of a u-verb like 行く?",
+    "ideal_context_ids": [
+      "l13-grammar-potential-02"
+    ],
+    "ideal_context": "雨が降ったので、海に行けませんでした。\n\n*We could not go to the beach, because it rained.*\n\nWe make potential verbs using the rules listed below:\n\n> **Potential verbs**\n>\n> * *ru*-verbs: Drop the final *-ru* and add *-rareru*.\n>   見る (mi-ru) $\\rightarrow$ 見られる (mi-rare-ru)\n>   <sup>み　　　　　　　　　　　み</sup>\n> * *u*-verbs: Drop the final *-u* and add *-eru*.\n>   行く (ik-u) $\\rightarrow$ 行ける (ik-eru)　　　作る $\\rightarrow$ 作れる\n>   <sup>い　　　　　　　　　　い　　　　　　　　　つく　　　　つく</sup>\n>   話す $\\rightarrow$ 話せる　　　　　　　　泳ぐ $\\rightarrow$ 泳げる\n>   <sup>はな　　　　　　はな　　　　　　　　およ　　　　およ</sup>\n>   待つ $\\rightarrow$ 待てる　　　　　　　　遊ぶ $\\rightarrow$ 遊べる\n>   <sup>ま　　　　　　　ま　　　　　　　　　あそ　　　　あそ</sup>\n>   死ぬ $\\rightarrow$ 死ねる　　　　　　　　買う $\\rightarrow$ 買える\n>   <sup>し　　　　　　　し　　　　　　　　　か　　　　　か</sup>\n>   読む $\\rightarrow$ 読める\n>   <sup>よ　　　　　　　よ</sup>\n> * irregular verbs:\n>   くる $\\rightarrow$ こられる　　　　　　する $\\rightarrow$ できる\n\nYou can think of the *u*-verb conjugation in terms of a *hiragana* table:",
+    "expected_output": "For u-verbs, drop the final -u and add -eru. For example: 行く (ik-u) becomes 行ける (ik-eru). Other examples in the lesson include 作る → 作れる, 話す → 話せる, 泳ぐ → 泳げる, 待つ → 待てる, 遊ぶ → 遊べる, 死ぬ → 死ねる, 買う → 買える, and 読む → 読める."
+  },
+  {
+    "id": "f03",
+    "query": "Why are potential forms of ru-verbs longer than those of u-verbs, and what are ra-less potential forms?",
+    "ideal_context_ids": [
+      "l13-grammar-potential-03"
+    ],
+    "ideal_context": "You can think of the *u*-verb conjugation in terms of a *hiragana* table:\n\n|  | 行\nい | 話\nはな | 待\nま | 死\nし | 読\nよ | 作\nつく | 泳\nおよ | 遊\nあそ | 買\nか |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| negative | か | さ | た | な | ま | ら | が | ば | わ | ～ない |  |\n| stem | き | し | ち | に | み | り | ぎ | び | い | ～ます |  |\n| affirmative | く | す | つ | ぬ | む | る | ぐ | ぶ | う | = Dictionary form |  |\n| potential | け | せ | て | ね | め | れ | げ | べ | え | ～る |  |\n\n---\n\nThe potential verbs for *ru*-verbs are longer than those for *u*-verbs. (Compare 見られる for 見る, and 乗れる for 乗る.) There actually are shorter, alternative potential verbs for *ru*-verbs and the irregular verb くる, which use the suffix *-reru*, instead of *-rareru*. These *ra*-less forms were once considered substandard, but are now used without hesitation by most speakers.<sup>1</sup>",
+    "expected_output": "Potential verbs for ru-verbs are longer than those for u-verbs (compare 見られる for 見る and 乗れる for 乗る). There are shorter alternative potential verbs for ru-verbs and the irregular verb くる that use -reru instead of -rareru. These ra-less forms were once considered substandard but are now used without hesitation by most speakers."
+  },
+  {
+    "id": "f04",
+    "query": "How do I say 'can do' using ことができる?",
+    "ideal_context_ids": [
+      "l13-grammar-potential-05"
+    ],
+    "ideal_context": "**Particles in potential sentences**\n\n* verbs with を:\n\n漢字を飲む → 漢字が読める or 漢字を読める\n\n* する → できる:\n\n仕事をする → 仕事ができる (仕事をする is much less commonly used.)\n\n* verbs with particles other than を:\n\n山に登る → 山に登れる (No particle change involved.)\n\n<sup>1</sup> The *ra*-less forms are still not sanctioned by school grammar. Grammar and spelling checker apps suggest re-writes for these *ra*-less forms.\n\n---\n\n28 会話・文法編\n\nYou can also express the idea of \"can do\" using a more complex construction: verb dictionary form + ことができる。<sup>2</sup>\n\nメアリーさんはギターを弾く<u>ことができます</u>。 (Compare: ギターが弾けます)\n*Mary can play the guitar.*\n\nこのアパートでは犬を飼う<u>ことができません</u>。 (Compare: 犬が飼えません)\n*You cannot keep dogs in this apartment.*",
+    "expected_output": "You can express 'can do' using verb dictionary form + ことができる. For example: メアリーさんはギターを弾くことができます (Mary can play the guitar), compared with ギターが弾けます. このアパートでは犬を飼うことができません means you cannot keep dogs in this apartment."
+  },
+  {
+    "id": "f05",
+    "query": "When do I use し instead of から to give reasons?",
+    "ideal_context_ids": [
+      "l13-grammar-shi-01"
+    ],
+    "ideal_context": "2 〜し\n\nAs we learned in Lesson 9, to give the reason for something, we can use the conjunction から。\n\n日本語はおもしろいから、日本語の授業が大好きです。\n*I really like my Japanese class, because Japanese is interesting.*\n\nWhen you want to mention not just one but two (or more) reasons, you can use し in place of から。し usually follows a predicate in the short form.<sup>3</sup>\n\n(reason<sub>1</sub>) し、(reason<sub>2</sub>) し、(situation)。\n\n日本語はおもしろいし、先生はいいし、私は日本語の授業が大好きです。\n*I really like my Japanese class, because Japanese is interesting, and our teacher is good.*\n\nA：国に帰りたいですか。\n*Do you want to go back home?*\n\nB：いいえ、日本の生活は楽しいし、いい友だちがいるし、帰りたくないです。\n*No. Life here in Japan is good, and I have good friends here, so I don't want to go back.*\n\nWhen you use just one し clause, you imply that it is not the only reason for the situation.\n\n物価が安いし、この町の生活は楽です。\n*Life in this city is easygoing. Things are inexpensive, for one thing.*",
+    "expected_output": "Use し when you want to mention two or more reasons. し usually follows a predicate in the short form: (reason1) し、(reason2) し、(situation). When only one し clause is used, it implies that is not the only reason."
+  },
+  {
+    "id": "f06",
+    "query": "How do I attach し to い-adjectives, な-adjectives, and nouns?",
+    "ideal_context_ids": [
+      "l13-grammar-shi-03"
+    ],
+    "ideal_context": "Note that you find だ in the present tense with な-adjectives and nouns, but not with い-adjectives.\n\n| い-adjectives: | おもしろいし | (× おもしろいだ し) |\n| --- | --- | --- |\n| な-adjectives: | <ruby>好<rt>す</rt></ruby>きだし | (× <ruby>好<rt>す</rt></ruby>きし) |\n| noun + です: | <ruby>学生<rt>がくせい</rt></ruby>だし | (× <ruby>学生<rt>がくせい</rt></ruby>し) |",
+    "expected_output": "In the present tense you find だ with な-adjectives and nouns, but not with い-adjectives. い-adjectives: おもしろいし (not おもしろいだし). な-adjectives: 好きだし (not 好きし). noun + です: 学生だし (not 学生し)."
+  },
+  {
+    "id": "f07",
+    "query": "How do I form 〜そうです sentences with い-adjectives and な-adjectives?",
+    "ideal_context_ids": [
+      "l13-grammar-sou-desu-01"
+    ],
+    "ideal_context": "3 〜そうです (It looks like ...)\n\nWe add そうです to い- and な-adjective bases to say that something \"seemingly\" has those properties.<sup>4</sup> When we say 〜そうです, we are guessing what something is like on the basis of our impressions.\n\n| このりんごはおいしそうです。 | This apple looks delicious. |\n| --- | --- |\n| あしたは<ruby>天気<rt>てんき</rt></ruby>がよさそうです。 | It looks like the weather will be fine tomorrow. |\n| メアリーさんは<ruby>元気<rt>げんき</rt></ruby>そうでした。 | Mary looks like she was doing well. |\n\nTo form 〜そうです sentences with い-adjectives, you drop the final い; with な-adjectives, you just drop な. The only exception is the い-adjective いい, which changes to よさ before そう.\n\n| い-adjectives: | おいしい | → | おいしそうです |\n| --- | --- | --- | --- |\n| (exception) | いい | → | よさそうです |\n| な-adjectives: | <ruby>元気<rt>げんき</rt></ruby> (な) | → | <ruby>元気<rt>げんき</rt></ruby>そうです |\n\n<sup>4</sup> You can also use そうです with a verb stem to describe your impression or guess.",
+    "expected_output": "Add そうです to い- and な-adjective bases to say that something seemingly has those properties, guessing from impressions. For い-adjectives, drop the final い: おいしい → おいしそうです. The exception is いい, which becomes よさそうです. For な-adjectives, drop な: 元気（な）→ 元気そうです."
+  },
+  {
+    "id": "f08",
+    "query": "Can I use そうです with a verb stem, and what kind of impression does that express?",
+    "ideal_context_ids": [
+      "l13-grammar-sou-desu-02"
+    ],
+    "ideal_context": "<sup>4</sup> You can also use そうです with a verb stem to describe your impression or guess.\n\nこのセーターは<ruby>家<rt>いえ</rt></ruby>で<ruby>洗<rt>あら</rt></ruby>えそうです。 (With <ruby>洗<rt>あら</rt></ruby>える, the potential form of <ruby>洗<rt>あら</rt></ruby>う。)\n*It looks like this sweater is washable at home.*\n\nThe impression you express may be an event about to happen.\n\n<ruby>雨<rt>あめ</rt></ruby>が<ruby>降<rt>ふ</rt></ruby>りそうです。 *It looks like it will rain.*\n\n---\n\n30 会話・文法編\n\nYou can use そうです with negative adjectives, too. The negative ending ない is changed to なさ before そう.<sup>5</sup>\n\nこの本は難しくなさそうです。\n<sub>ほん　　むずか</sub>\n\n*This book does not look difficult.*\n\nソラさんはテニスが上手じゃなさそうです。\n<sub>　　　　　　　　　　　じょうず</sub>\n\n*It does not look like Sora is good at tennis.*\n\nYou can use the adjective + そう combination to qualify a noun. そう is a な-adjective, thus we say そうな before a noun.\n\n暖かそうなセーターを着ています。\n<sub>あたた　　　　　　　　　き</sub>\n\n*She is wearing a warm-looking sweater.*",
+    "expected_output": "Yes. You can use そうです with a verb stem to describe an impression or guess, for example このセーターは家で洗えそうです (it looks like this sweater is washable at home), using the potential form 洗える. The impression may also be an event about to happen, as in 雨が降りそうです (it looks like it will rain). You can also use そうです with negative adjectives by changing ない to なさ before そう, and adjective + そう can qualify a noun as そうな."
+  },
+  {
+    "id": "f09",
+    "query": "What does 〜てみる mean and how is it used?",
+    "ideal_context_ids": [
+      "l13-grammar-te-miru-01"
+    ],
+    "ideal_context": "4 〜てみる\n\nYou can use the *te*-form of a verb plus the helping verb みる to express the idea of \"doing something tentatively,\" or \"trying something.\" You are not sure what the outcome of your action will be, but you dare to do it and see what effect it might have.\n\n漢字がわからなかったので、日本人の友だちに聞いてみました。\n<sub>かんじ　　　　　　　　　　にほんじん　とも　　　　き</sub>\n*I did not know the kanji, so I tried asking a Japanese friend of mine.*\n\nA：この本、おもしろかったですよ。\t*This book was interesting.*\n<sub>　　ほん</sub>\n\nB：じゃあ、読んでみます。\t*Okay, I will take a look at it.*\n<sub>　　　　　よ</sub>\n\nみる comes from the verb 見る, and conjugates as a regular *ru*-verb. Unlike the main verb 見る, however, 〜てみる is always written in *hiragana*.\n<sub>　　　　　　　　　　　み　　　　　　　　　　　　　　　　　　　　　　　　　　　　　み</sub>\n\n<sup>5</sup> Another option is to use the negative of そうです instead of negating the adjective, as in:\n\nこの本は難しそうじゃないです。\n<sub>ほん　　むずか</sub>\n\nソラさんはテニスが上手そうじゃないです。\n<sub>　　　　　　　　　　　じょうず</sub>\n\n---",
+    "expected_output": "〜てみる uses the te-form of a verb plus the helping verb みる to express doing something tentatively or trying something. You are not sure of the outcome but you dare to do it and see. For example 読んでみます means you will take a look at it. みる conjugates as a regular ru-verb and, unlike 見る, 〜てみる is always written in hiragana."
+  },
+  {
+    "id": "f10",
+    "query": "How do I describe how often I do something over a period of time, like shampooing three times a week?",
+    "ideal_context_ids": [
+      "l13-grammar-frequency-01"
+    ],
+    "ideal_context": "6 一週間に三回\n\nYou can describe the frequency of events over a period of time by using the following framework.\n\n(period) に (frequency) (frequency) *per* (period)\n\nQ：一週間に何回髪を洗いますか。 *How many times a week do you shampoo?*\n\nA：私は一週間に三回髪を洗います。 *I shampoo three times a week.*\n\n<sup>6</sup> You can optionally keep the particle に before なら in this example and say チリになら. Particles such as に, で, and から may, but do not have to, intervene between the noun and なら, while は, が, and を never go with なら.\n\n---\n\n一日に三時間ぐらいゲームをします。\n<sup>いちにち</sup> <sup>さんじかん</sup>\n\n*I play games for about three hours a day.*\n\n一か月に三日か四日、アルバイトをします。\n<sup>いっ</sup> <sup>げつ</sup> <sup>みっか</sup> <sup>よっか</sup>\n\n*I work part-time three or four days a month.*",
+    "expected_output": "Describe frequency over a period with (period) に (frequency), meaning frequency per period. Example: 私は一週間に三回髪を洗います (I shampoo three times a week). Also 一日に三時間ぐらいゲームをします and 一か月に三日か四日、アルバイトをします."
+  }
+]
