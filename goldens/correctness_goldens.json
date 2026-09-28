@@ -1,0 +1,82 @@
+[
+  {
+    "id": "f01",
+    "query": "What does a potential verb express in Japanese?",
+    "ideal_context_ids": [
+      "l13-grammar-potential-01"
+    ],
+    "expected_output": "The potential verb is used to say that someone \"can\" or \"has the ability to\" do something, or that something is \"possible.\""
+  },
+  {
+    "id": "f02",
+    "query": "How do I form the potential form of a u-verb like 行く?",
+    "ideal_context_ids": [
+      "l13-grammar-potential-02"
+    ],
+    "expected_output": "For u-verbs, drop the final -u and add -eru. For example: 行く (ik-u) becomes 行ける (ik-eru). Other examples in the lesson include 作る → 作れる, 話す → 話せる, 泳ぐ → 泳げる, 待つ → 待てる, 遊ぶ → 遊べる, 死ぬ → 死ねる, 買う → 買える, and 読む → 読める."
+  },
+  {
+    "id": "f03",
+    "query": "Why are potential forms of ru-verbs longer than those of u-verbs, and what are ra-less potential forms?",
+    "ideal_context_ids": [
+      "l13-grammar-potential-03"
+    ],
+    "expected_output": "Potential verbs for ru-verbs are longer than those for u-verbs (compare 見られる for 見る and 乗れる for 乗る). There are shorter alternative potential verbs for ru-verbs and the irregular verb くる that use -reru instead of -rareru. These ra-less forms were once considered substandard but are now used without hesitation by most speakers."
+  },
+  {
+    "id": "f04",
+    "query": "How do I say 'can do' using ことができる?",
+    "ideal_context_ids": [
+      "l13-grammar-potential-05"
+    ],
+    "expected_output": "You can express 'can do' using verb dictionary form + ことができる. For example: メアリーさんはギターを弾くことができます (Mary can play the guitar), compared with ギターが弾けます. このアパートでは犬を飼うことができません means you cannot keep dogs in this apartment."
+  },
+  {
+    "id": "f05",
+    "query": "When do I use し instead of から to give reasons?",
+    "ideal_context_ids": [
+      "l13-grammar-shi-01"
+    ],
+    "expected_output": "Use し when you want to mention two or more reasons. し usually follows a predicate in the short form: (reason1) し、(reason2) し、(situation). When only one し clause is used, it implies that is not the only reason."
+  },
+  {
+    "id": "f06",
+    "query": "How do I attach し to い-adjectives, な-adjectives, and nouns?",
+    "ideal_context_ids": [
+      "l13-grammar-shi-03"
+    ],
+    "expected_output": "In the present tense you find だ with な-adjectives and nouns, but not with い-adjectives. い-adjectives: おもしろいし (not おもしろいだし). な-adjectives: 好きだし (not 好きし). noun + です: 学生だし (not 学生し)."
+  },
+  {
+    "id": "f07",
+    "query": "How do I form 〜そうです sentences with い-adjectives and な-adjectives?",
+    "ideal_context_ids": [
+      "l13-grammar-sou-desu-01"
+    ],
+    "expected_output": "Add そうです to い- and な-adjective bases to say that something seemingly has those properties, guessing from impressions. For い-adjectives, drop the final い: おいしい → おいしそうです. The exception is いい, which becomes よさそうです. For な-adjectives, drop な: 元気（な）→ 元気そうです."
+  },
+  {
+    "id": "f08",
+    "query": "Can I use そうです with a verb stem, and what kind of impression does that express?",
+    "ideal_context_ids": [
+      "l13-grammar-sou-desu-02"
+    ],
+    "expected_output": "Yes. You can use そうです with a verb stem to describe an impression or guess, for example このセーターは家で洗えそうです (it looks like this sweater is washable at home), using the potential form 洗える. The impression may also be an event about to happen, as in 雨が降りそうです (it looks like it will rain). You can also use そうです with negative adjectives by changing ない to なさ before そう, and adjective + そう can qualify a noun as そうな."
+  },
+  {
+    "id": "f09",
+    "query": "What does 〜てみる mean and how is it used?",
+    "ideal_context_ids": [
+      "l13-grammar-te-miru-01"
+    ],
+    "expected_output": "〜てみる uses the te-form of a verb plus the helping verb みる to express doing something tentatively or trying something. You are not sure of the outcome but you dare to do it and see. For example 読んでみます means you will take a look at it. みる conjugates as a regular ru-verb and, unlike 見る, 〜てみる is always written in hiragana."
+  },
+  {
+    "id": "f10",
+    "query": "How do I describe how often I do something over a period of time, like shampooing three times a week?",
+    "ideal_context_ids": [
+      "l13-grammar-frequency-01"
+    ],
+    "expected_output": "Describe frequency over a period with (period) に (frequency), meaning frequency per period. Example: 私は一週間に三回髪を洗います (I shampoo three times a week). Also 一日に三時間ぐらいゲームをします and 一か月に三日か四日、アルバイトをします."
+  }
+]
